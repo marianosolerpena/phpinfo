@@ -1,0 +1,96 @@
+oc login --token=sha256~r9L6uYSZ3njTCKm1RtmJDfDmwxRtdfYwn4_wjKUCRAk --server=https://api.ocp.ganimedes-colomar.es:6443
+   79  oc new-project marianosolerpena
+   80  oc get all
+   81  oc status
+   82  ln -s ../bin/oc ../bin/kubectl
+   83  kubectl version
+   84  kubectl 
+   85  kubectl explain po
+   86  kubectl explain po.spec
+   87  kubectl explain po.spec.containers
+   88  kubectl explain po.spec.containers.ports
+   89  kubectl explain po.spec.containers.volmeMounts
+   90  kubectl explain po.spec.containers.volumeMounts
+   91  kubectl explain po.spec.containers.workingDir
+   92  kubectl explain po.spec.containers.volumes
+   93  kubectl explain po.spec.volumes
+   94  kubectl explain po.spec.volumes.configMap
+   95  kubectl explain po.spec.volumes.configMap.items
+   96  pwd
+   97  ll
+   98  cd phpinfo/
+   99  ls -tlr
+  100  git pull
+  101  ls -ltr
+  102  kubectl apply -f kube-compose-configMap.yaml 
+  103  ls -ltr
+  104  kubectl get all
+  105  kubectl describe po
+  106  history
+  107  kubectl describe po
+  108  kubectl ev
+  109  kubectl get ev
+  110  fc -l
+  111  kubectl get e
+  112  kubectl get bo
+  113  kubectl get po
+  114  kubectl get po -o yaml
+  115  kubectl create cm --from-file src/index.php phpinfo-cm
+  116  kubectl get cm/phpinfo-cm -oyaml
+  117  rm src/index.php 
+  118  kubectl get po
+  119  kubectl get ev
+  120  kubectl logs po
+  121  kubectl logs phpinfo-po
+  122  git pull
+  123  history
+  124  kubectl apply -f kube-compose-configMap.yaml
+  125  kubectl delete -f kube-compose-configMap.yaml
+  126  kubectl apply -f kube-compose-configMap.yaml
+  127  kubectl ev
+  128  kubectl get ev
+  129  kubectl logs phpinfo-po
+  130  kubectl delete -f kube-compose-configMap.yaml
+  131  kubectl apply -f kube-compose-configMap.yaml
+  132  kubectl delete -f kube-compose-configMap.yaml
+  133  git pull
+  134  kubectl apply -f kube-compose-configMap.yaml
+  135  kubectl logs phpinfo-po
+  136  kubectl get ev
+  137  kubectl logs phpinfo-po
+  138  kubectl delete -f kube-compose-configMap.yaml
+  139  git pull
+  140  kubectl apply -f kube-compose-configMap.yaml
+  141  kubectl get ev
+  142  kubectl logs phpinfo-po
+  143  kubectl get po
+  144  kubectl get po -oyaml
+  145  git pull
+  146  kubectl delete -f kube-compose-configMap.yaml
+  147  kubectl apply -f kube-compose-configMap.yaml
+  148  kubectl get po -oyaml
+  149  git pull
+  150  kubectl delete -f kube-compose-configMap.yaml
+  151  kubectl apply -f kube-compose-configMap.yaml
+  152  kubectl get po -oyaml
+  153  kubectl explain svc
+  154  kubectl explain svc.spec
+  155  kubectl explain svc.spec.ports
+  156  kubectl explain svc.spec.selector
+  157  kubectl explain svc.spec.type
+  158  kubectl get po
+  159  kubectl exec phpinfo-po hostname
+  160  kubectl exec phpinfo-po date
+  161  kubectl exec phpinfo-po --date
+  162  kubectl exec phpinfo-po -- date
+  163  kubectl exec phpinfo-po -- ls
+  164  kubectl exec phpinfo-po -- pwd
+  165  kubectl exec phpinfo-po -- ifconfig
+  166  kubectl exec phpinfo-po -- wget
+  167  kubectl exec phpinfo-po -- curl
+  168  kubectl exec phpinfo-po -- curl locahost:8080
+  169  kubectl exec phpinfo-po -- curl localhost:8080
+  170  kubectl port-forward --help
+  171  kubectl port-forward 8080:8080
+  172  kubectl port-forward  po/phpinfo-po 8080:8080
+  173  history
