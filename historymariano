@@ -95,3 +95,21 @@ oc login --token=sha256~r9L6uYSZ3njTCKm1RtmJDfDmwxRtdfYwn4_wjKUCRAk --server=htt
   172  kubectl port-forward  po/phpinfo-po 8080:8080
   173  history
 kubectl port-forward svc/phpinfo-svc 8080:80
+174  git pull
+  175  kubectl delete -f kube-compose-configMap.yaml
+  176  kubectl apply -f kube-compose-configMap.yaml
+  177  kubectl get po
+  178  kubectl get all
+  179  kubectl get po
+  180  kubectl apply -f kube-compose-configMap.yaml
+  181  kubectl get all
+  182  kubectl port-forward svc/phpinfo-svc 8080:80
+  183  curl 172.30.155.159
+  184  kubectl explain route
+  185  kubectl explain route.apiVersion
+  186  kubectl explain route.spec
+  187  kubectl explain route.spec.to
+  188  git pull
+  189  history
+  190  kubectl apply -f kube-compose-configMap.yaml
+  191  kubectl get all
