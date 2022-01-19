@@ -94,3 +94,4 @@ oc login --token=sha256~r9L6uYSZ3njTCKm1RtmJDfDmwxRtdfYwn4_wjKUCRAk --server=htt
   171  kubectl port-forward 8080:8080
   172  kubectl port-forward  po/phpinfo-po 8080:8080
   173  history
+kubectl port-forward svc/phpinfo-svc 8080:80
